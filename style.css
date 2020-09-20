@@ -647,11 +647,16 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757; 
 }
 
 .container {
@@ -767,25 +772,29 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #000000;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CB4B10;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4B10;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+
+.footer_link {
+    color: #FFFFFF !important;
 }
 
 .ltc-white {
@@ -797,7 +806,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4B10!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -805,8 +814,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #000000!important;
+    border-color: #000000!important;
 }
 
 .bg-dots-bg {
